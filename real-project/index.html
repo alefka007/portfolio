@@ -19,7 +19,7 @@
                 <img class="logo__img" src="img/logo.png" alt="logo">
             </div>    
             <nav class="menu">
-                <a href="#" class="menu__link">
+                <a class="menu__link" href="#">
                     <img class="menu__link-img" src="/img/002-menu.png" alt="menu">
                 </a>
             </nav>
@@ -76,10 +76,10 @@
             <li class="portfolio__list-item">Дизайн интерьеров</li>
             <li class="portfolio__list-item">Отделочные работы</li>
         </ul>
-        <div class="portfolio__wrapper-img">
+        <div class="portfolio__wrapper">
             <img class="portfolio__img" src="/img/Cam3_large.png" width="260" alt="фото дизайна">
-            <p class="portfolio__text">Дизайн интерьера гостинной</p>
         </div>
+        <p class="portfolio__text">Дизайн интерьера гостинной</p>
         
     </section>
 
@@ -90,7 +90,7 @@
         <ul class="services__list">
             <li class="services__list-item">Дизайн жилого помещения</li> 
             <li class="services__list-item">Дизайн отдельных комнат</li>
-            <li class="services__list-item">Дизайн комерческих обьктов</li>
+            <li class="services__list-item">Дизайн комерческих объектов</li>
             <li class="services__list-item">Ремонт под ключь</li>
             <li class="services__list-item">Отделочные работы</li>
             <li class="services__list-item">Выезд дизайнера на дом</li> 
@@ -100,18 +100,19 @@
             коммерческие интерьеры такими,
             чтобы посетители кафе, бара, гостиницы хотели возвращаться в интерьер снова и снова
         </p>
-        <button class="services__button" type="submit">КОНСУЛЬТАЦИЯ</button>
+        <button class="services__btn" type="submit">КОНСУЛЬТАЦИЯ</button>
     </section>
 
     <!--video-->
 
     <section class="video">
-        <div class="container">
             <div class="video__inner">
-                <img class="video__img" src="img/Многоугольник 1.png" alt="play">
+                    <a href="#" class="video__img-link">
+                        <img class="video__img" src="img/Многоугольник 1.png" alt="play">
+                    </a>
+                <p class="video__text">О студии дизайна<br> интерьеров BRUME за 2 минуты</p>
             </div>
-            <p class="video__text">О студии дизайна интерьеров BRUME за 2 минуты</p>
-        </div>
+            
     </section>
 
     <!--stages-->
@@ -140,7 +141,7 @@
                     его образов и ощущений. подбираем мебель.</p>
             <liv>
             <li class="stages__list-item">
-                <h3 class="stages__subtitle">3D Визуализация
+                <h3 class="stages__subtitle">3D Визуализация</h3>
                     <p class="stages__text">Создаем 3d визуализацию,
                         собираем пакет чертежей соответствующий строительным нормам..</p>
             </li>
@@ -160,9 +161,9 @@
             <p class="form__text">Оставьте контактные данные, менеджер свяжется с вами
                 в течении 15 минут, для уточнения всех деталей.</p>
             <div class="form__input">
-                <input class="form__name" placeholder="Имя*">
-                <input class="form__phone" placeholder="Телефон*">
-                <input class="form__email" placeholder="E-mail*">
+                <input class="form__input-name" placeholder="Имя*">
+                <input class="form__input-phone" placeholder="Телефон*">
+                <input class="form__input-email" placeholder="E-mail*">
             </div>
             <button class="form__btn" type="submit">ОТПРАВИТЬ</button>
             <p class="form__text-btn">Нажимая на кнопку, вы соглашаетесь с условиями
@@ -180,8 +181,14 @@
             <span>Услуга: инерьер детской</span>
             <p class="reviews__text">Спасибо студии за замечательный интерьер для моей 4-х летней дочки!
                 Работа прошла быстро и легко, команда выполнила все точно в срок,
-                сделали все как мы и хотели.
+                сделали все как мы и хотели.<br>
                 В следующий раз обратимся к BRUME!</p>
+            <ul class="reviews__list">
+                <li class="reviews__list-item"></li>
+                <li class="reviews__list-item"></li>
+                <li class="reviews__list-item"></li>
+                <li class="reviews__list-item"></li>
+            </ul>    
         </div>
     </section>
 
@@ -193,9 +200,9 @@
             <div class="footer__link">
                 <a href="#"><img src="img/003-vk.png" alt="vk"></a>
                 <a href="#"><img src="img/002-instagram.png" alt="instagram"></a>
-                <a href="#"><img src="img/001-facebook.png" alt="facebook"></a>>
+                <a href="#"><img src="img/001-facebook.png" alt="facebook"></a>
             </div>
-            <div class="footer_text">BRUME interior, 2017 HolodnayaDesign</div>
+            <h3 class="footer__text">BRUME interior, 2017 HolodnayaDesign</h3>
         </div>
     </footer>
 </body>
