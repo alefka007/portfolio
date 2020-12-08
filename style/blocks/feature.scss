@@ -1,0 +1,27 @@
+.feature {
+    padding-left: 15px;
+    padding-right: 40px;
+    background-color: #fff;
+    min-height: 1200px;
+    &__list {
+        margin-top: 55px;
+        list-style: none;
+    }
+    &__list-item{
+        padding-top: 15px;
+    }
+    &__number {
+        font-size: 85.5px;
+        color: #fde3c9;
+    }
+    &__title {
+        color: #1a292f;
+        font-size: 24px;
+    }
+    &__text {
+        padding-top: 15px;
+        color: #838383;
+        font-size: 18px;
+        line-height: 25px;
+    }
+}

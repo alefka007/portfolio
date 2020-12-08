@@ -1,0 +1,64 @@
+.header {
+    background-image: url(/img/header-mobile.jpg);
+    background-repeat: no-repeat;
+    height: 608px;
+    position: relative;
+    &__wrapper{
+        padding: 0 16px;
+        height: 100%;
+        z-index: 1;
+        position: absolute;
+    }
+    &__navigation-list{
+        padding-top: 26px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__phone{
+        display: none;
+    }
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 353px;
+        text-align: center;
+        margin-top: 122px;
+    }
+    &__title {
+        font-size: 48px;
+        color: #fff;
+        line-height: 40px;
+        margin: 0;
+    }
+    &__text {
+        color: #f0f1f2;
+        font-size: 18px;
+        padding:  0 30px;
+    }
+    &__btn {
+        height: 54px;
+        width: 223px;
+        border: none;
+        color: #fff;
+        background-color: #ffa459;
+        transition: background-color .2s ease-in-out;
+        outline: none;
+        font-size: 14px;
+        font-weight: bold;
+        &:hover{
+            background-color: darken(#ffa459, 10%);
+        }
+    }
+    &::after {
+        content: "";
+        height: 608px;
+        width: 100%;
+        background-color: rgba(9, 32, 51, 0.88);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+    }
+}

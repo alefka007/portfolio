@@ -1,0 +1,27 @@
+.footer{
+    min-height: 408px;
+    background-color: #182c3d;
+    &__wrapper{
+        text-align: center;
+        padding: 97px 61px 92px 47px;
+    }
+    &__logo{
+        margin-bottom: 45px;
+    }
+    &__container-link{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__link{
+        &:hover{
+            background-color: grey;
+        }
+    }
+    &__text{
+        font-size: 20px;
+        margin-top: 57px;
+        color: #ffc487;
+        font-weight: normal;
+        line-height: 30px;
+    }
+}

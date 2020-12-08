@@ -1,0 +1,71 @@
+.form {
+    background-image: url(/img/kitchen2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 914px;
+    width: 100%;
+    position: relative;
+    &::before {
+        content: "";
+        min-height: inherit;
+        width: 100%;
+        position: absolute;
+        background-color: #1f3140;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    &__wrapper {
+        text-align: center;
+    }
+    &__title {
+        font-size: 45px;
+        line-height: 1.3em;
+        color: #fff;
+        padding: 70px 0px 0;
+    }
+    &__text {
+        font-size: 20px;
+        line-height: 24px;
+        color: #959da4;
+        margin-top: 20px;
+        padding: 0 22px;
+    }
+    &__input{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0 15px 0 17px;
+        margin-bottom: 58px;
+    }
+    &__input-btn{
+        height: 71px;
+        width: 292px;
+        color: #fff;
+        background-color: #ff9f4e;
+        border-radius: 5px;
+        border: none;
+        font-size: 21px;
+        margin-top: 55px;
+    }
+    &__text-btn {
+        font-size: 18px;
+        color: #959da4;
+        margin-top: 19px;
+        padding: 0 16px;
+    }
+    &__input input{
+        outline: none;
+        background: transparent;
+        border: none;
+        border-bottom:  2px solid #bdb2a8;
+        color: #fff;
+        margin-top: 50px;
+        padding-bottom: 15px;
+        &::placeholder{
+            color: #a6adb2;
+            font-size: 18px;
+        }
+    }
+}

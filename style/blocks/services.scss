@@ -1,0 +1,50 @@
+.services {
+    min-height: 1342px;
+    margin-top: 55px;
+    &__title {
+        font-size: 45px;
+        color: $text-color;
+        text-align: center;
+    }
+    &__list {
+        padding: 14px 18px 0;
+        list-style: none;
+        color: #b0afac;
+        font-size: 22px;
+        line-height: 61px;
+    }
+    &__img {
+        padding-top: 44px;
+    }
+    &__list-item {
+        transition: all 0.4s;
+        &:hover{
+            color: $text-color;
+        }
+    }
+    &__text {
+        font-size: 21px;
+        line-height: 30px;
+        padding:25px 28px 0 15px;
+        color: #5e5e5e;
+    }
+    &__btn {
+        height: 56px;
+        width: 217px;
+        background-color: #fff;
+        position: relative;
+        font-size: 15px;
+        font-weight: bold;
+        color: $text-color;
+        margin: 0 auto;
+        display: block;
+        margin-top: 52px;
+        outline: none;
+        &:hover {
+            background-color:  #f8a25a;
+            border: none;
+            color: #fff;
+        }
+    }
+}
+
