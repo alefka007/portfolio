@@ -1,5 +1,6 @@
 .video{
     background-image: url(../img/video-bg.jpg);
+    margin-top: 110px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -43,7 +44,7 @@
     &__text{
         font-size: 22px;
         line-height: 30px;
-        color: #fff;
+        color: $white;
         padding: 50px 28px 0 32px;
     }
 }

@@ -1,7 +1,8 @@
 .header {
     background-image: url(/img/header-mobile.jpg);
     background-repeat: no-repeat;
-    height: 608px;
+    background-size: cover;
+    min-height: 608px;
     position: relative;
     &__wrapper{
         padding: 0 16px;
@@ -28,27 +29,27 @@
     }
     &__title {
         font-size: 48px;
-        color: #fff;
+        color: $white;
         line-height: 40px;
         margin: 0;
     }
     &__text {
         color: #f0f1f2;
         font-size: 18px;
-        padding:  0 30px;
+        padding:  0 25px;
     }
     &__btn {
         height: 54px;
         width: 223px;
         border: none;
-        color: #fff;
+        color: $white;
         background-color: #ffa459;
         transition: background-color .2s ease-in-out;
         outline: none;
         font-size: 14px;
         font-weight: bold;
         &:hover{
-            background-color: darken(#ffa459, 10%);
+            background-color: darken(#ffa459, 5%);
         }
     }
     &::after {

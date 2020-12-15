@@ -1,8 +1,8 @@
 {
-  "name": "real-project",
+  "name": "newproject",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "start": "parcel index.html"
   },
@@ -12,5 +12,9 @@
   "devDependencies": {
     "cssnano": "^4.1.10",
     "sass": "^1.26.11"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "slick-slider": "^1.8.2"
   }
 }

@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="slick/slick.scss">
     <link rel="stylesheet" href="style/style.scss">
     <title>Дизайн интерьеров</title>
 </head>
@@ -20,7 +21,7 @@
                     <picture>
                         <source media="(min-width: 1360px" srcset="img/logo-desctop.png">
                         <img class="header__navigation-logo" src="img/logo-mobile.png" alt="logo">
-                    </picture>
+                    </picture> 
                 </li>
                 <li class="header__navigation-item">
                     <a class="header__link header__link--navigation" href="#">
@@ -89,12 +90,24 @@
             <li class="portfolio__list-item">Дизайн интерьеров</li>
             <li class="portfolio__list-item">Отделочные работы</li>
         </ul>
-        <div class="portfolio__wrapper">
-            <img class="portfolio__img" src="/img/Cam3_large.png" alt="фото дизайна">
-        </div>
-        <p class="portfolio__text">Дизайн интерьера гостинной</p>
-        
     </section>
+
+    <!--top-slider-->
+
+    <div class="top-slider">
+        <div class="top-slider__item">
+            <img class="top-slider__img" src="/img/Cam3_large.png" alt="slide1">
+            <p class="top-slider__text">Дизайн интерьера гостинной</p>
+        </div>
+        <div class="top-slider__item">
+            <img class="top-slider__img" src="/img/Cam3_large.png" alt="slide2">
+            <p class="top-slider__text">Дизайн интерьера гостинной</p>
+        </div>
+        <div class="top-slider__item">
+            <img class="top-slider__img" src="/img/Cam3_large.png" alt="slide3">
+            <p class="top-slider__text">Дизайн интерьера гостинной</p>
+        </div>
+    </div>
 
     <!--services-->
 
@@ -220,6 +233,8 @@
             <h3 class="footer__text">BRUME interior, 2017 HolodnayaDesign</h3>
         </div>
     </footer>
-    <script src="./js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

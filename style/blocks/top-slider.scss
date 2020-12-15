@@ -1,0 +1,33 @@
+.top-slider{
+    position: relative;
+    &__img {
+        margin-top: 39px;
+        margin: 0 auto;
+        display: block;
+    }
+    &__text {
+        color: $text-color;
+        font-weight: bold;
+        padding-top: 25px;
+        text-align: center;
+        font-size: 20px;
+    }
+    &::before {
+        content: "";
+        top: 0;
+        left: 0;
+        position: absolute;
+        width: 14px;
+        height: 530px;
+        background-color:#243545;
+    } 
+    &::after {
+        content: "";
+        top: 0;
+        right: 0;
+        position: absolute;
+        width: 14px;
+        height: 530px;
+        background-color:#243545;
+    }
+}
