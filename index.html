@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="slick/slick.scss">
     <link rel="stylesheet" href="style/style.scss">
     <title>Дизайн интерьеров</title>
 </head>
@@ -82,7 +81,6 @@
     </section>
 
     <!--portfolio-->
-
     <section class="portfolio">
         <h2 class="portfolio__title">Портфолио</h2>
         <ul class="portfolio__list">
@@ -92,25 +90,27 @@
         </ul>
     </section>
 
-    <!--top-slider-->
+    <!--slider-swiper-->
 
-    <div class="top-slider">
-        <div class="top-slider__item">
-            <img class="top-slider__img" src="/img/Cam3_large.png" alt="slide1">
-            <p class="top-slider__text">Дизайн интерьера гостинной</p>
+    <div class="image-slider swiper-container">
+        <div class="image-slider__wrapper swiper-wrapper">
+            <div class="image-slider__slide swiper-slide"> 
+                <img  class="swiper__img" src="img/Slide1.png" alt="Slide1">
+                <p class="image-slider__text">Дизайн интерьера гостинной</p>
+            </div>
+            <div class="image-slider__slide swiper-slide">
+                <img  class="swiper__img" src="img/Slide1.png" alt="Slide1">
+                <p class="image-slider__text">Дизайн интерьера гостинной</p>
+            </div>
+            <div class="image-slider__slide swiper-slide">
+                <img  class="swiper__img" src="img/Slide1.png" alt="Slide1">
+                <p class="image-slider__text">Дизайн интерьера гостинной</p>
+            </div>
         </div>
-        <div class="top-slider__item">
-            <img class="top-slider__img" src="/img/Cam3_large.png" alt="slide2">
-            <p class="top-slider__text">Дизайн интерьера гостинной</p>
-        </div>
-        <div class="top-slider__item">
-            <img class="top-slider__img" src="/img/Cam3_large.png" alt="slide3">
-            <p class="top-slider__text">Дизайн интерьера гостинной</p>
-        </div>
+        <div class="swiper-pagination"></div>
     </div>
 
     <!--services-->
-
     <section class="services">
         <h2 class="services__title">Наши услуги</h2>
         <ul class="services__list">
@@ -233,8 +233,6 @@
             <h3 class="footer__text">BRUME interior, 2017 HolodnayaDesign</h3>
         </div>
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="slick/slick.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>

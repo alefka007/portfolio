@@ -31,7 +31,7 @@
     &__btn {
         height: 56px;
         width: 217px;
-        background-color: #fff;
+        background-color: $white;
         position: relative;
         font-size: 15px;
         font-weight: bold;
@@ -43,7 +43,7 @@
         &:hover {
             background-color:  #f8a25a;
             border: none;
-            color: #fff;
+            color: $white;
         }
     }
 }
