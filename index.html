@@ -13,37 +13,55 @@
     <!--header-->
 
 <header class="header">
-    <div class="header__wrapper">
-        <nav class="header__navigation">
-            <ul class="header__navigation-list">
-                <li class="header__navigation-item">
-                    <picture>
-                        <source media="(min-width: 1360px" srcset="img/logo-desctop.png">
-                        <img class="header__navigation-logo" src="img/logo-mobile.png" alt="logo">
-                    </picture> 
-                </li>
-                <li class="header__navigation-item">
-                    <a class="header__link header__link--navigation" href="#">
+    <div class="container">
+        <div class="header__wrapper">
+            <nav class="header__navigation">
+                <ul class="header__navigation-list">
+                    <li class="header__navigation-item">
                         <picture>
-                            <source media="min-width:1360px" srcset="img/menu-desctop.png">
-                            <img class="header__link-img header__link-img--navigation" src="/img/menu-mobile.png" alt="menu"> 
-                        </picture>     
+                                <source media="(min-width: 1360px" srcset="img/logo-desctop.png">
+                                <img class="header__navigation-logo" src="img/logo-mobile.png" alt="logo">
+                        </picture>
+                    </li>
+                    <li class="header__navigation-item">
+                        <button class="header__menu-btn" type="button"><span></span></button>
+                    </li>
+                    <li class="header__navigation-item">
+                        <img class="header__phone-img" src="img/phone.png" alt="phone">
+                        <span class="header__phone-numder">+7 (800) 823  48 88</span>  
+                    </li>                     
+                </ul>
+            </nav>
+            <div class="header__content">
+                <h1 class="header__title">Дизайн интерьеров </h1>
+                <p class="header__text">Воплотим в жизнь интерьер, 
+                который будет радовать лаконичностью и уютом.</p>
+                <button class="header__btn">ЗАКАЗАТЬ ДИЗАЙН</button>
+                <a href="#form" class="header__link">
+                    <img class="header__link-img" src="/img/Arrow.png" alt="arrow" >
+                </a>
+            </div>
+            <div class="header__footer">
+                <div class="header__socials">
+                    <a class="header__socials-link" href="#" >
+                        <img src="img/icon-1.png" alt="icon1" class="header__socials-img">
                     </a>
-                </li>
-            </ul>
-            <div class="header__phone">
-                <img class="header__phone-img" src="img/phone.png" alt="phone">
-                <span class="header__phone-numder">+7 (800) 823  48 88</span>
-            </div> 
-        </nav>
-        <div class="header__container">
-            <h1 class="header__title">Дизайн интерьеров </h1>
-            <p class="header__text">Воплотим в жизнь интерьер, 
-            который будет радовать лаконичностью и уютом.</p>
-            <button class="header__btn">ЗАКАЗАТЬ ДИЗАЙН</button>
-            <a href="#form" class="header__link">
-                <img class="header__link-img" src="/img/Arrow.png" alt="arrow" >
-            </a>
+                    <a class="header__socials-link" href="#" >
+                        <img src="img/icon-2.png" alt="icon2" class="header__socials-img">
+                    </a>
+                    <a class="header__socials-link" href="#" >
+                        <img src="img/icon-3.png" alt="icon3" class="header__socials-img">
+                    </a>
+                </div>
+                <div class="header__slider">
+                    <ul class="header__slider-list">
+                        <li class="header__slider-item"></li>
+                        <li class="header__slider-item"></li>
+                        <li class="header__slider-item"></li>
+                        <li class="header__slider-item"></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>        
 </header>
@@ -51,46 +69,50 @@
     <!--feature-->
 
     <section class="feature">
-        <ul class="feature__list">
-            <li class="feature__list-item">
-                <strong class="feature__number">01</strong>
-                <h3 class="feature__title">Берем весь ремонт<br> на себя</h3>
-                <p class="feature__text">Заботы по дизайну и отделке помещения возьмем на себя,
-                останется дождаться завершения работы и наслаждаться результатом</p>
-            </li>
-            <li class="feature__list-item">
-                <strong class="feature__number">02</strong>
-                <h3 class="feature__title">Мы - профессионалы своего дела</h3>
-                <p class="feature__text">Наши дизайнеры постоянно повышают квалификацию,
-                    посещают курсы и тренинги а студия уже реализовала с выше 1000 дизайн-проектов</p>
-            </li>
-            <li class="feature__list-item">
-                <strong class="feature__number">03</strong>
-                <h3 class="feature__title">Наши проекты индивидуальны</h3>
-                <p class="feature__text">Каждый, созданный студией, интерьер - индивидуальное и максимально
-                    продуманноеnрешение для каждого вида помещения</p>
-            </li>
-            <li class="feature__list-item">
-                <strong class="feature__number">04</strong>
-                <h3 class="feature__title">Работаем на выгодных условиях</h3>
-                <p class="feature__text">Ценовая политика студии<br>очень лояльна, мы осуществляем контроль всего процесса
-                    работы и получаем
-                    результат который делает<br> клиентов счастливыми</p>
-            </li>
-        </ul>
+        <div class="container">
+            <ul class="feature__list">
+                <li class="feature__list-item">
+                    <strong class="feature__number">01</strong>
+                    <h3 class="feature__title">Берем весь ремонт<br> на себя</h3>
+                    <p class="feature__text">Заботы по дизайну и отделке помещения возьмем на себя,
+                    останется дождаться завершения работы и наслаждаться результатом</p>
+                </li>
+                <li class="feature__list-item">
+                    <strong class="feature__number">02</strong>
+                    <h3 class="feature__title">Мы - профессионалы своего дела</h3>
+                    <p class="feature__text">Наши дизайнеры постоянно повышают квалификацию,
+                        посещают курсы и тренинги а студия уже реализовала с выше 1000 дизайн-проектов</p>
+                </li>
+                <li class="feature__list-item">
+                    <strong class="feature__number">03</strong>
+                    <h3 class="feature__title">Наши проекты индивидуальны</h3>
+                    <p class="feature__text">Каждый, созданный студией, интерьер - индивидуальное и максимально
+                        продуманноеnрешение для каждого вида помещения</p>
+                </li>
+                <li class="feature__list-item">
+                    <strong class="feature__number">04</strong>
+                    <h3 class="feature__title">Работаем на выгодных условиях</h3>
+                    <p class="feature__text">Ценовая политика студии<br>очень лояльна, мы осуществляем контроль всего процесса
+                        работы и получаем
+                        результат который делает<br> клиентов счастливыми</p>
+                </li>
+            </ul>
+        </div>
     </section>
 
     <!--portfolio-->
     <section class="portfolio">
-        <h2 class="portfolio__title">Портфолио</h2>
-        <ul class="portfolio__list">
-            <li class="portfolio__list-item">Все проекты </li>
-            <li class="portfolio__list-item">Дизайн интерьеров</li>
-            <li class="portfolio__list-item">Отделочные работы</li>
-        </ul>
+        <div class="container">
+            <h2 class="portfolio__title">Портфолио</h2>
+            <ul class="portfolio__list">
+                <li class="portfolio__list-item">Все проекты </li>
+                <li class="portfolio__list-item">Дизайн интерьеров</li>
+                <li class="portfolio__list-item">Отделочные работы</li>
+            </ul>
+        </div>
     </section>
 
-    <!--slider-swiper-->
+    <!--slider-->
 
     <div class="image-slider swiper-container">
         <div class="image-slider__wrapper swiper-wrapper">
@@ -107,7 +129,6 @@
                 <p class="image-slider__text">Дизайн интерьера гостинной</p>
             </div>
         </div>
-        <div class="swiper-pagination"></div>
     </div>
 
     <!--services-->
@@ -117,7 +138,7 @@
             <li class="services__list-item">Дизайн жилого помещения</li> 
             <li class="services__list-item">Дизайн отдельных комнат</li>
             <li class="services__list-item">Дизайн комерческих объектов</li>
-            <li class="services__list-item">Ремонт под ключь</li>
+            <li class="services__list-item">Ремонт под ключ</li>
             <li class="services__list-item">Отделочные работы</li>
             <li class="services__list-item">Выезд дизайнера на дом</li> 
         </ul>
@@ -202,7 +223,7 @@
     <!--reviews-->
 
     <section class="reviews">
-        <div class="reviews__container">
+        <div class="reviews__wrapper">
             <h2 class="reviews__title">Отзывы наших клиентов</h2>
             <img class="reviews__img" src="img/photo.png" alt="фото">
             <h3 class="reviews__name">Александра Холодная</h3>

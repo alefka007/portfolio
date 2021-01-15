@@ -1,23 +1,27 @@
 .services {
-    min-height: 1342px;
-    margin-top: 55px;
     &__title {
         font-size: 45px;
+        font-family: "PlayFairDisplay-Bold";
+        font-weight: 700;
         color: $text-color;
         text-align: center;
     }
     &__list {
-        padding: 14px 18px 0;
+        margin: 0 18px;
         list-style: none;
         color: #b0afac;
         font-size: 22px;
-        line-height: 61px;
     }
     &__img {
         padding-top: 44px;
+        display: block;
+        margin: 0 auto;
     }
     &__list-item {
+        font-size: 22px;
+        padding-top: 45px;
         transition: all 0.4s;
+
         &:hover{
             color: $text-color;
         }

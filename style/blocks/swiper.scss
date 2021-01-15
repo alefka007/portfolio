@@ -2,11 +2,12 @@
 .image-slider{
     text-align: center;
     max-width: 100%;
+    margin-bottom: 88px;
     &__text{
         font-size: 18px;
         font-weight: bold;
+        padding-top: 23px;
         color: $text-color;
-        margin-top: 25px;
     }
     &::after{
         content: "";

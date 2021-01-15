@@ -1,9 +1,24 @@
-body {
+html{
     box-sizing: border-box;
+}
+
+body {
+    background-color: #fdfaf3;
     overflow-x: hidden;
     min-width: $mobile-width;
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Raleway-Light", Arial, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h1,h2,h3,h4,h5,h6{
+        margin: 0;
+        padding: 0;
+}
+
+button{
+    padding: 0;
 }
 
 *,

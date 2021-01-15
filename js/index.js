@@ -1,15 +1,13 @@
-import Swiper from 'swiper';
-import 'swiper/swiper-bundle.css';
+
+import Swiper, { Navigation, Pagination } from 'swiper';
+Swiper.use([Navigation, Pagination]);
+import 'swiper/swiper-bundle.min.css';
 const swiper = new Swiper();
 
 var mySwiper = new Swiper('.swiper-container', {
     direction: 'horizontal',
-    loop: false,
+    loop: true,
     pagination: {
     el: '.swiper-pagination',
-    
-    },
-    scrollbar: {
-    el: '.swiper-scrollbar',
-    },
+    }
 })

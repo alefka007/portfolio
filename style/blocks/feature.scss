@@ -1,27 +1,47 @@
 .feature {
-    padding-left: 15px;
-    padding-right: 40px;
-    background-color: #fff;
-    min-height: 1200px;
+    margin-top: 60px;
+    width: 295px;
+    
     &__list {
-        margin-top: 55px;
         list-style: none;
-    }
-    &__list-item{
-        padding-top: 15px;
     }
     &__number {
         font-size: 85.5px;
+        font-family: "PlayFairDisplay-Bold";
+        font-weight: 700;
         color: #fde3c9;
     }
     &__title {
         color: #1a292f;
         font-size: 24px;
+        font-family: "Raleway-SemiBold";
+        font-weight: 600;
+        margin-bottom: 20px;
     }
     &__text {
-        padding-top: 15px;
         color: #838383;
         font-size: 18px;
         line-height: 25px;
+    }
+}
+
+@media(min-width: 1360px){
+    .feature{
+        width: 100%;
+        margin-top: 120px;
+        &__list{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &__list-item{
+            &:nth-child(even){
+                margin-top: 220px;
+            }
+        }
+
+        &__list-item + &__list-item{
+            padding-left: 40px;
+        }
     }
 }
