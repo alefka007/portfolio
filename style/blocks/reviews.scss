@@ -2,6 +2,23 @@
     background-color:#fdfaf3;
     min-height: 1156px;
     text-align: center;
+    width: 295px;
+    margin: 0 auto;
+
+    &__wrapper{
+        position: relative;
+        z-index: 1;
+        &::after{
+            content: "";
+            width: 295px;
+            height: 580px;
+            background-color: $white;
+            position: absolute;
+            top: 380px;
+            right: 0;
+            z-index: -1;
+        }
+    }
 
     &__name {
         font-size: 23px;

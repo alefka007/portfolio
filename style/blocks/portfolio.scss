@@ -34,6 +34,11 @@
             color: $text-color;
         }
 
+        &__list{
+            margin-bottom: 45px;
+            
+        }
+
         &__list-item{
             display: inline-block;
             font-size: 20px;

@@ -22,6 +22,7 @@
     &__navigation-list{
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     &__navigation-item{
@@ -113,12 +114,31 @@
         min-height: 770px;
         background-image: none;
 
+        &__inner{
+            &::before{
+                content:"";
+                position: absolute;
+                background-image: url(/img/header-desctop.jpg);
+                background-repeat: no-repeat;
+                height: 595px;
+                width: 1163px;
+                top: 84px;
+            }
+        }
+
         &__navigation{
             margin-bottom: 207px;
         }
     
         &__menu-btn{
+            height: 18px;
+            width: 26px;
             cursor: pointer;
+            span{
+                height: 2px;
+                width: 26px;
+                box-shadow: 0 8px 0 $white, 0 -8px 0 $white;
+            }
         }
 
         &__navigation-item{
@@ -197,6 +217,11 @@
             padding-left: 36px;
         }
 
+        &__slider{
+            display: flex;
+            align-items: center;
+        }
+
         &__slider-list{
             width: 140px;
             display: flex;
@@ -221,18 +246,6 @@
             top: 0;
             left: 0;
         }
-
-        &::before{
-            content:"";
-            position: absolute;
-            background-image: url(/img/header-desctop.jpg);
-            background-repeat: no-repeat;
-            height: 595px;
-            width: 1163px;
-            left: 90px;
-            top: 84px;
-        }
-
     }
 }
 
