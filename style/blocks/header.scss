@@ -1,7 +1,3 @@
-.container{
-    padding: 0 16px;
-}
-
 
 .header {
     background-image: url(/img/header-mobile.jpg);
@@ -69,7 +65,7 @@
         font-size: 18px;
         font-family: "Raleway-Medium";
         font-weight: 500;
-        padding:  0 24px;
+        width: 245px;
         margin-bottom: 29px;
     }
 
@@ -105,11 +101,7 @@
 }
 
 @media (min-width: 1360px){
-    .container{
-        max-width: 1164px;
-        margin: 0 auto;
-        padding: 0;
-    }
+
     .header {
         min-height: 770px;
         background-image: none;

@@ -139,24 +139,42 @@
 
     <!--services-->
     <section class="services">
-        <h2 class="services__title">Наши услуги</h2>
-        <ul class="services__list">
-            <li class="services__list-item">Дизайн жилого помещения</li> 
-            <li class="services__list-item">Дизайн отдельных комнат</li>
-            <li class="services__list-item">Дизайн комерческих объектов</li>
-            <li class="services__list-item">Ремонт под ключ</li>
-            <li class="services__list-item">Отделочные работы</li>
-            <li class="services__list-item">Выезд дизайнера на дом</li> 
-        </ul>
-        <picture>
-            <source media="(min-width: 1360px)" srcset="img/services-desctop.jpg">
-            <img class="services__img" src="img/services-mobile.jpg" alt="фото дизайна">
-        </picture>
-        <p class="services__text">Работая с коммерческими объектами, студия изучает целевую аудиторию, создает
-            коммерческие интерьеры такими,
-            чтобы посетители кафе, бара, гостиницы хотели возвращаться в интерьер снова и снова
-        </p>
-        <button class="services__btn" type="submit">КОНСУЛЬТАЦИЯ</button>
+        <div class="container">
+            <h2 class="services__title">Наши услуги</h2>
+            <div class="services__box">
+                <div class="services__box-left">
+                    <ul class="services__list">
+                        <li class="services__list-item">Дизайн жилого помещения</li> 
+                        <li class="services__list-item">Дизайн отдельных комнат</li>
+                        <li class="services__list-item">Дизайн комерческих объектов</li>
+                        <li class="services__list-item">Ремонт под ключ</li>
+                        <li class="services__list-item">Отделочные работы</li>
+                        <li class="services__list-item">Выезд дизайнера на дом</li>
+                    </ul>
+                </div>
+                <div class="services__box-right">
+                    <picture>
+                        <source media="(min-width: 1360px)" srcset="img/services-desctop.jpg">
+                        <img class="services__img" src="img/services-mobile.jpg" alt="фото дизайна">
+                    </picture>
+                    <div class="services__wrapper">
+                        <div class="services__wrapper-left">
+                            <h3 class="services__subtitle">
+                                Дизайн коммерческих объектов
+                            </h3>
+                            <p class="services__text">Работая с коммерческими объектами, студия изучает целевую аудиторию, создает
+                                коммерческие интерьеры такими,
+                                чтобы посетители кафе, бара, гостиницы хотели возвращаться в интерьер снова и снова
+                            </p>
+                        </div>
+                        <div class="services__wrapper-right">
+                            <p class="services__counter">53<sup class="services__counter services__counter--sub">2</sup> проекта</p>
+                            <button class="services__btn" type="submit">КОНСУЛЬТАЦИЯ</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!--video-->
@@ -166,85 +184,115 @@
                     <a href="#" class="video__img-link">
                         <img class="video__img" src="img/Многоугольник 1.png" alt="play">
                     </a>
-                <p class="video__text">О студии дизайна<br> интерьеров BRUME за 2 минуты</p>
+                <p class="video__text">О студии дизайна интерьеров BRUME за 2 минуты</p>
             </div>
     </section>
 
     <!--stages-->
 
     <section class="stages">
-        <h2 class="stages__title">Этапы работы</h2>
-        <ul class="stages__list">
-            <li class="stages__list-item">
-                <h3 class="stages__subtitle">Консультация</h3>
-                <p class="stages__text">Обсуждаем задачи и пожелания,
-                    предлагаем варианты дизайна интерьера, оговариваем сроки реализации.</p>
-            </li>
-            <li class="stages__list-item">
-                <h3 class="stages__subtitle">Техническое задание</h3>
-                <p class="stages__text">Составляем техническое задание.
-                    Заключаем договор, в котором прописываем все этапы проекта.</p>
-            </li>
-            <li class="stages__list-item">
-                <h3 class="stages__subtitle">Замеры и планировка</h3>
-                <p class="stages__text">Фиксируем размеры стен, окон,
-                    плинтусов, дверных проемов для эффективной работы</p>
-            </li>
-            <li class="stages__list-item">
-                <h3 class="stages__subtitle">Дизайн-концепция</h3>
-                <p class="stages__text">Создаем концепцию на основе пожеланий клиента,
-                    его образов и ощущений. подбираем мебель.</p>
-            <liv>
-            <li class="stages__list-item">
-                <h3 class="stages__subtitle">3D Визуализация</h3>
-                    <p class="stages__text">Создаем 3d визуализацию,
-                        собираем пакет чертежей соответствующий строительным нормам..</p>
-            </li>
-            <li class="stages__list-item">
-                <h3 class="stages__subtitle">Комплектация интерьера</h3>
-                <p class="stages__text">Подбираем мебель, отделочные материалы, светильники и текстиль. Декорируем
-                    интерьер.</p>
-            </li>
-        </ul>
+        <div class="container">
+            <h2 class="stages__title">Этапы работы</h2>
+            <ul class="stages__list">
+                <li class="stages__list-item">
+                    <h3 class="stages__subtitle">Консультация</h3>
+                    <p class="stages__text">Обсуждаем задачи и пожелания,
+                        предлагаем варианты дизайна интерьера, оговариваем сроки реализации.</p>
+                </li>
+                <li class="stages__list-item">
+                    <h3 class="stages__subtitle">Техническое задание</h3>
+                    <p class="stages__text">Составляем техническое задание.
+                        Заключаем договор, в котором прописываем все этапы проекта.</p>
+                </li>
+                <li class="stages__list-item">
+                    <h3 class="stages__subtitle">Замеры и планировка</h3>
+                    <p class="stages__text">Фиксируем размеры стен, окон,
+                        плинтусов, дверных проемов для эффективной работы</p>
+                </li>
+                <li class="stages__list-item">
+                    <h3 class="stages__subtitle">Дизайн-концепция</h3>
+                    <p class="stages__text">Создаем концепцию на основе пожеланий клиента,
+                        его образов и ощущений. подбираем мебель.</p>
+                <liv>
+                <li class="stages__list-item">
+                    <h3 class="stages__subtitle">3D Визуализация</h3>
+                        <p class="stages__text">Создаем 3d визуализацию,
+                            собираем пакет чертежей соответствующий строительным нормам..</p>
+                </li>
+                <li class="stages__list-item">
+                    <h3 class="stages__subtitle">Комплектация интерьера</h3>
+                    <p class="stages__text">Подбираем мебель, отделочные материалы, светильники и текстиль. Декорируем
+                        интерьер.</p>
+                </li>
+            </ul>
+        </div>
     </section>
 
     <!--form-->
 
     <section class="form" id="form">
-        <div class="form__wrapper">
-            <h2 class="form__title">Мечтаете об интерьере<br> от BRUME?</h2>
-            <p class="form__text">Оставьте контактные данные, менеджер свяжется с вами
-                в течении 15 минут, для уточнения всех деталей.</p>
-            <form class="form__input">
-                <input class="form__input-name" placeholder="Имя*">
-                <input class="form__input-phone" placeholder="Телефон*">
-                <input class="form__input-email" placeholder="E-mail*">
-                <button class="form__input-btn" type="submit">ОТПРАВИТЬ</button>
-                <p class="form__text-btn">Нажимая на кнопку, вы соглашаетесь с условиями
-                    обработки персональных данных</p>
-            </form>
+        <div class="container">
+            <div class="form__inner">
+                <div class="form__wrapper">
+                    <h2 class="form__title">Мечтаете об интерьере<br> от BRUME?</h2>
+                    <p class="form__text">Оставьте контактные данные, менеджер свяжется с вами
+                        в течении 15 минут, для уточнения всех деталей.</p>
+                    <form class="form__group">
+                        <input class="form__input form__input--name" placeholder="Имя*">
+                        <input class="form__input form__input--phone" placeholder="Телефон*">
+                        <input class="form__input form__input--email" placeholder="E-mail*">
+                        <button class="form__input-btn" type="submit">ОТПРАВИТЬ</button>
+                        <p class="form__text-btn">Нажимая на кнопку, вы соглашаетесь с условиями
+                            обработки персональных данных</p>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
 
     <!--reviews-->
 
-    <section class="reviews">
-        <div class="reviews__wrapper">
-            <h2 class="reviews__title">Отзывы наших клиентов</h2>
-            <img class="reviews__img" src="img/photo.png" alt="фото">
-            <h3 class="reviews__name">Александра Холодная</h3>
-            <span class="reviews__span">Услуга: инерьер детской</span>
-            <p class="reviews__text">Спасибо студии за замечательный интерьер для моей 4-х летней дочки!
-                Работа прошла быстро и легко, команда выполнила все точно в срок,
-                сделали все как мы и хотели.<br>
-                В следующий раз обратимся к BRUME!</p>
-            <ul class="reviews__list">
-                <li class="reviews__list-item"></li>
-                <li class="reviews__list-item"></li>
-                <li class="reviews__list-item"></li>
-                <li class="reviews__list-item"></li>
-            </ul>    
+    <section class="reviews swiper-container2">
+        <h2 class="reviews__title">Отзывы наших клиентов</h2>
+        <div class="reviews__wrapper swiper-wrapper">
+            <div class="reviews__slide swiper-slide">
+                <img class="reviews__img" src="img/photo.png" alt="фото">
+                <h3 class="reviews__name">Александра Холодная</h3>
+                <span class="reviews__span">Услуга: инерьер детской</span>
+                <p class="reviews__text">Спасибо студии за замечательный интерьер для моей 4-х летней дочки!
+                    Работа прошла быстро и легко, команда выполнила все точно в срок,
+                    сделали все как мы и хотели.<br>
+                    В следующий раз обратимся к BRUME!</p>
+            </div>
+            <div class="reviews__slide swiper-slide">
+                <img class="reviews__img" src="img/photo.png" alt="фото">
+                <h3 class="reviews__name">Александра Холодная</h3>
+                <span class="reviews__span">Услуга: инерьер детской</span>
+                <p class="reviews__text">Спасибо студии за замечательный интерьер для моей 4-х летней дочки!
+                    Работа прошла быстро и легко, команда выполнила все точно в срок,
+                    сделали все как мы и хотели.<br>
+                    В следующий раз обратимся к BRUME!</p>
+            </div>
+            <div class="reviews__slide swiper-slide">
+                <img class="reviews__img" src="img/photo.png" alt="фото">
+                <h3 class="reviews__name">Александра Холодная</h3>
+                <span class="reviews__span">Услуга: инерьер детской</span>
+                <p class="reviews__text">Спасибо студии за замечательный интерьер для моей 4-х летней дочки!
+                    Работа прошла быстро и легко, команда выполнила все точно в срок,
+                    сделали все как мы и хотели.<br>
+                    В следующий раз обратимся к BRUME!</p>
+            </div>
+            <div class="reviews__slide swiper-slide">
+                <img class="reviews__img" src="img/photo.png" alt="фото">
+                <h3 class="reviews__name">Александра Холодная</h3>
+                <span class="reviews__span">Услуга: инерьер детской</span>
+                <p class="reviews__text">Спасибо студии за замечательный интерьер для моей 4-х летней дочки!
+                    Работа прошла быстро и легко, команда выполнила все точно в срок,
+                    сделали все как мы и хотели.<br>
+                    В следующий раз обратимся к BRUME!</p>
+            </div>
         </div>
+        <div class="swiper-pagination"></div>
     </section>
 
     <!--footer-->

@@ -8,11 +8,23 @@ body {
     overflow-x: hidden;
     min-width: $mobile-width;
     font-size: 18px;
-    font-family: "Raleway-Light" Arial, Helvetica, sans-serif;
-    font-weight: 300;
     font-style: normal;
+}
+
+.container{
+    padding: 0 16px;
     
 }
+
+@media(min-width:1360px){
+    .container{
+        max-width: 1168px;
+        margin: 0 auto;
+        padding: 0;
+    }
+}
+
+
 
 h1,h2,h3,h4,h5,h6 {
     margin: 0;

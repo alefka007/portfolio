@@ -18,23 +18,23 @@
     }
     &__wrapper {
         text-align: center;
+        margin: 0 -18px 0;
     }
     &__title {
         font-size: 45px;
         font-family: "PlayFairDisplay-Bold";
         font-weight: 700;
-        line-height: 1.3em;
         color: $white;
-        padding: 70px 0px 0;
+        padding-top: 70px;
+        margin-bottom: 25px;
     }
     &__text {
         font-size: 20px;
         line-height: 24px;
         color: #959da4;
-        margin-top: 20px;
-        padding: 0 22px;
+        padding: 0 17px;
     }
-    &__input{
+    &__group{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -49,7 +49,7 @@
         border-radius: 5px;
         border: none;
         font-size: 21px;
-        margin-top: 55px;
+        margin: 43px auto 0;
     }
     &__text-btn {
         font-size: 18px;
@@ -57,7 +57,7 @@
         margin-top: 19px;
         padding: 0 16px;
     }
-    &__input input{
+    &__input{
         outline: none;
         background: transparent;
         border: none;
@@ -70,6 +70,75 @@
             font-size: 18px;
             font-family: "Raleway-Light";
             font-weight: 300;
+        }
+    }
+}
+
+@media(min-width: 1360px){
+    .form{
+        background-image: none;
+        min-height: 683px;
+        &::before{
+            background: linear-gradient(90deg, rgba(17, 37, 55, 0.97) 50%, transparent 50%);
+        }
+        &__inner{
+            background-image: url(/img/form-bg.jpg);
+            background-repeat: no-repeat;
+            background-position: 525px 0;
+            height: 683px;
+        }
+        &__wrapper{
+            width: 485px;
+            margin-left: 0;
+        }
+        &__title{
+            font-size: 40px;
+            text-align: left;
+            margin-bottom: 10px;
+        }
+        &__text{
+            font-size: 16px;
+            padding: 0;
+            text-align: left;
+            width: 393px;
+        }
+        &__group{
+            padding: 0;
+        }
+        &__input{
+            margin: 35px 9px 0 6px;
+            &--name{
+                background-image: url(/img/name.png);
+                background-repeat: no-repeat;
+                background-position: 451px 8px;
+            }
+            &--phone{
+                background-image: url(/img/phon.png);
+                background-repeat: no-repeat;
+                background-position: 448px 8px;
+            }
+            &--email{
+                background-image: url(/img/email.png);
+                background-repeat: no-repeat;
+                background-position: 448px 8px;
+            }
+            
+        }
+        &__input-btn{
+            height: 65px;
+            width: 475px;
+            border: 2px solid #fff;
+            background-color: transparent;
+            font-size: 17px;
+            line-height: 16px;
+            &:hover{
+                border: none;
+                background-color: #f8a25a;
+            }
+        }
+        &__text-btn{
+            padding: 0;
+            text-align: left;
         }
     }
 }

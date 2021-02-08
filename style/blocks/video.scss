@@ -6,6 +6,7 @@
     background-position: center center;
     min-height: 620px;
     position: relative;
+    margin-bottom: 100px;
     &::after{
         content: "";
         position: absolute;
@@ -48,5 +49,18 @@
         font-weight: 400;
         color: $white;
         padding: 50px 28px 0 32px;
+    }
+}
+
+@media(min-width: 1360px){
+    .video{
+        background-image: url(/img/video-bg-full.jpg);
+        margin: 0 0 120px;
+
+        &__text{
+            font-size: 18px;
+            font-family: "Raleway-Regular";
+            font-weight: 400;
+        }
     }
 }

@@ -1,25 +1,9 @@
 .reviews {
     background-color:#fdfaf3;
     min-height: 1156px;
+    max-width: 100%;
     text-align: center;
-    width: 295px;
     margin: 0 auto;
-
-    &__wrapper{
-        position: relative;
-        z-index: 1;
-        &::after{
-            content: "";
-            width: 295px;
-            height: 580px;
-            background-color: $white;
-            position: absolute;
-            top: 380px;
-            right: 0;
-            z-index: -1;
-        }
-    }
-
     &__name {
         font-size: 23px;
         line-height: 30px;
@@ -45,21 +29,23 @@
         padding-top: 25px;
         margin: 0 auto;
     }
-    &__list {
-        width: 144px;
-        padding-top: 90px;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-    }
-    &__list-item {
-        height: 3px;
-        width: 26px;
-        background-color: #cdd3cf;
-        list-style: none;
-        transition: all .3s;
-        &:hover{
-            background-color: #1a444a;
+}
+
+.swiper-container2 .swiper-pagination{
+    position: relative;
+    margin-top: 100px;
+}
+
+.swiper-container2 .swiper-pagination .swiper-pagination-bullets{
+    width: 26px;
+    height: 3px;
+}
+
+@media(min-width:1360px){
+    .reviews{
+        &__title{
+            text-align: left;
+            padding-left: 99px;
         }
     }
 }
